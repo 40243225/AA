@@ -1,0 +1,11 @@
+GeoServer 2.9.4
+-------------------
+
+This release was built on Jan 23, 2017. The changelog for this release can be found:
+
+  http://jira.codehaus.org/browse/GEOS/fixforversion/14601
+
+This release is based on:
+
+  GeoTools 15.4
+  GeoWebCache 1.9.3

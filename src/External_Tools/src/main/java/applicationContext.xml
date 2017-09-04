@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+ <beans>
+    <bean id="externaltoolspage" class="org.geoserver.web.MenuPageInfo">
+      <property name="id" value="externaltoolspage"/>
+      <property name="titleKey" value="ExternalToolsPage.page.title"/>
+      <property name="descriptionKey" value="ExternalToolsPage.page.description"/>
+      <property name="componentClass" value="org.geoserver.ExternalTools.ExternalToolsPage"/>
+	  <property name="authorizer" ref="workspaceAdminAuthorizer"/>
+    </bean>
+</beans>

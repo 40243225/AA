@@ -1,0 +1,11 @@
+ <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+ 
+<beans>
+    <bean id="upload" class="org.geoserver.web.MenuPageInfo">
+      <property name="id" value="upload"/>
+      <property name="titleKey" value="upload.page.title"/>
+      <property name="descriptionKey" value="upload.page.description"/>
+      <property name="componentClass" value="org.geoserver.upload.Upload"/>
+	   <property name="authorizer" ref="workspaceAdminAuthorizer"/>
+    </bean>
+</beans>
